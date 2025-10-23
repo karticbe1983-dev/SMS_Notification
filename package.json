@@ -1,0 +1,29 @@
+{
+  "name": "birthday-notification-system",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Automated birthday SMS notification system for associates",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "test": "vitest --run"
+  },
+  "keywords": [
+    "birthday",
+    "sms",
+    "notification",
+    "excel"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "vitest": "^4.0.1"
+  }
+}
